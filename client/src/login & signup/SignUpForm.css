@@ -1,0 +1,162 @@
+.Signupform {
+  display: block;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 25rem;
+}
+
+.head {
+  color: #6faff9;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.head-2 {
+  color: gray;
+}
+
+.signup-form-data-form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: black;
+  margin-left: 5rem;
+}
+
+.signup-form-data-form input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -250px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form-data-form .input-full-name-signup {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -250px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form-data-form .input-user-name-signup {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -250px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form-data-form .input-pwd-name-signup {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -250px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form-data-form .input-pwd2-name-signup {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -310px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-form-data-form .input-email-name-signup {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #6faff9;
+  width: 300px;
+  color: black;
+  font-size: small;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-left: -220px;
+  transition: border-color 0.3s ease;
+}
+
+.login-btn-route {
+  color: #6faff9;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: -120px;
+  margin-bottom: 90px;
+}
+
+.container-signup .test-2f {
+  color: black;
+  margin-left: 80px;
+  margin-top: 17px;
+}
+
+.button-singup .butn-data-signup {
+  background-color: #6faff9;
+  color: #fff;
+  font-size: 16px;
+  margin-left: -70px;
+}
+
+.button-singup .butn-data-signup:hover {
+  background-color: #fff;
+  color: #6faff9;
+  border: 1px solid #6faff9;
+  font-size: 16px;
+  margin-left: -70px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-left: -250px;
+  margin-top: -15px;
+}
+
+.input-invalid {
+  border-color: red;
+}
+
+.input-invalid::placeholder {
+  color: transparent;
+}
+.Toastify__toast--success {
+  background-color: #8ccf8c;
+}
+
+.Toastify__toast--warning {
+  background-color: #e6b542;
+}
+.signup-form-data-form .input-full-name-signup.input-invalid,
+.signup-form-data-form .input-user-name-signup.input-invalid,
+.signup-form-data-form .input-pwd-name-signup.input-invalid,
+.signup-form-data-form .input-pwd2-name-signup.input-invalid,
+.signup-form-data-form .input-email-name-signup.input-invalid {
+  border-color: red;
+}

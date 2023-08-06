@@ -1,0 +1,73 @@
+.login {
+  background-color: white;
+  padding: 1rem;
+  margin: 1px auto;
+  width: 60rem;
+  max-width: 100%;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 100);
+  object-position: center;
+}
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.login button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #6faff9;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* GOOGLE BUTTON */
+.login h4 {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-left: 25px;
+  background-color: white;
+  color: #6faff9;
+  border-radius: 8px;
+  border: 1px solid #6faff9;
+  width: 20rem;
+  max-width: 100%;
+  text-align: center;
+  font-size: bold;
+  margin-left: 6.5rem;
+}
+
+.login img {
+  width: 15rem;
+  height: 15rem;
+  z-index: 10rem;
+  float: right;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.footer {
+  font-weight: 500;
+  font-size: large;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo-login {
+  height: 15%;
+  width: 18%;
+  object-position: center;
+  position: sticky;
+  left: 40%;
+}

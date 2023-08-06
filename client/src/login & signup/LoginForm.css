@@ -1,0 +1,112 @@
+.Loginform {
+  display: block;
+  /* flex-wrap: nowrap; */
+
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 25rem;
+  /* text-align: left; */
+}
+.head {
+  color: #6faff9;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head-2 {
+  color: gray;
+}
+
+.login-form-data-form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  position: left;
+  color: black;
+  margin-left: 7rem;
+}
+.login-form-data-form input {
+  width: 330px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #6faff9;
+  margin-top: 35px;
+  margin-left: -160px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.login-form-data-form-pwd label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  position: left;
+  color: black;
+  margin-left: 7rem;
+}
+.login-form-data-form-pwd input {
+  width: 330px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #6faff9;
+  margin-top: 35px;
+  margin-left: -200px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.button {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.button :hover {
+  background-color: #6faff9;
+  color: white;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: 5.5rem;
+  font-weight: bold;
+  color: black;
+}
+.container2 label {
+  margin-right: 40px;
+  color: #000;
+}
+.container2 input {
+  margin-left: 15px;
+}
+.container2 .test2 {
+  margin-left: 20px;
+  color: #000;
+}
+.container2 a {
+  text-decoration: none;
+  color: #6faff9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.buttonsign-in .btn-sign-in {
+  background-color: #6faff9;
+  color: #fff;
+  font-size: 16px;
+}
+.buttonsign-in .btn-sign-in:hover {
+  border: 1px solid #6faff9;
+  background-color: #fff;
+  color: #6faff9;
+  font-size: 16px;
+  height: fit-content;
+  height: 35px;
+}
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

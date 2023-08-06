@@ -1,0 +1,47 @@
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4f005f;
+  color: white;
+  border: 1px solid grey;
+  margin-left: 7px;
+  position: center;
+}
+
+.btn:hover {
+  background-color: #741188;
+  border-color: grey;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: black;
+  background-color: antiquewhite;
+}
+
+.btn--alt:hover {
+  background-color: #e8e0de;
+}
+
+.card {
+  background-color: #001734;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: #001734;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}

@@ -1,0 +1,20 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer {
+  font-size: 2rem;
+  margin-top: 70px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.footer a {
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #f0f0f0;
+  text-decoration: underline;
+}

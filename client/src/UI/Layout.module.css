@@ -1,0 +1,8 @@
+.left {
+  /* margin: 25px auto; */
+  display: flex;
+  /* flex-direction: row; */
+  width: 50%;
+  /* max-width: 400rem; */
+  /* padding-left: -500px; */
+}

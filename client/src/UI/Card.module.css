@@ -1,0 +1,16 @@
+.card {
+  background-color: #123158;
+  width: 80%;
+  height: 90%;
+  margin-top: 5px;
+  border-radius: 2%;
+  display: flex;
+  margin-left: 180px;
+  padding: 20px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.card h1 {
+  margin-left: 50px;
+  margin-top: 40px;
+}
