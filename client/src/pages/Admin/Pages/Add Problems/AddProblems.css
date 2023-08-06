@@ -1,0 +1,79 @@
+.new-expense-s {
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}
+.new-expense-s.overlay {
+  position: relative;
+}
+
+.popup-container-prob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.popup-prob {
+  background-color: #1f344d;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.button-add-prob {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #ae8fde;
+  background-color: #ae8fde;
+  color: white;
+  border-radius: 12px;
+  margin-left: 550px;
+  margin-top: -70px;
+}
+
+.new-expense-s button:hover,
+.new-expense-s button:active {
+  background-color: #ae8fde;
+  border-color: #ae8fde;
+}
+
+.new-expense-s button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense-s button.alternative:hover,
+.new-expense-s button.alternative:active {
+  background-color: #ae8fde;
+}
+.problems-list-h1 {
+  color: #fff;
+  margin-left: -700px;
+  margin-top: 20px;
+}
+.head-prob-page {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

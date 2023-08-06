@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #001734;
+}
+.header1 {
+  width: auto;
+  margin-left: 90px;
+  padding: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.header1 .line {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(65, 160, 216);
+}
+.header1 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+}
+
+.header2 {
+  width: auto;
+  margin-left: 90px;
+  padding: 150px;
+  text-align: left;
+  margin-top: -180px;
+}
+.header2 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-bottom: -10px;
+}
+.header2 .line {
+  font-size: 40px;
+  font-weight: lighter;
+  color: rgb(65, 160, 216);
+  margin-bottom: 10px;
+}
+.header2 .container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: auto;
+  text-align: left;
+  padding: 1rem;
+}
+.header3 {
+  width: auto;
+  margin-left: 90px;
+  padding: 150px;
+  text-align: left;
+  margin-top: -180px;
+}
+.header3 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-bottom: -10px;
+}
+.header3 .line {
+  font-size: 40px;
+  font-weight: lighter;
+  color: rgb(65, 160, 216);
+  margin-bottom: 10px;
+}
+.header3 .container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: auto;
+  text-align: left;
+  padding: 1rem;
+}
+.header4 {
+  width: auto;
+  margin-left: 90px;
+  padding: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -180px;
+}
+.header4 .line {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(65, 160, 216);
+}
+.header4 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.header4 img {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  /* margin-right: 180px; */
+}

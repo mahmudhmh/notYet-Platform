@@ -1,0 +1,109 @@
+.tabs-container {
+  left: -4px;
+  top: 2px;
+  width: 1340px;
+  position: relative;
+  height: 90px;
+  z-index: 1;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: relative;
+  z-index: 1;
+  height: 70px;
+}
+.tab-buttons2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #001734;
+  padding: 0px;
+  height: 20px;
+  position: relative;
+  z-index: 1;
+}
+.tab-buttons button {
+  background-color: #ad8dfe;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 50px;
+  outline: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tab-buttons button.active {
+  background-color: #6ef796;
+}
+
+.tab-content {
+  padding: 0px;
+  background-color: #001734;
+  position: relative;
+  z-index: 0;
+}
+
+.tab-content.open {
+  z-index: 1;
+}
+.sliding-window {
+  display: flex;
+  flex-direction: column;
+  height: 320px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.sliding-window-item {
+  transition: transform 0.5s ease;
+}
+
+.sliding-window-item:not(:first-child) {
+  transform: translateY(100%);
+}
+
+.sliding-window-item.active {
+  transform: translateY(0);
+}
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 300px;
+  background: #ad8dfe;
+  border-radius: 5px;
+  font-size: 22px;
+  text-align: center;
+  color: #333;
+}
+.countdown.red {
+  background-color: #ff5959;
+  color: #fff;
+}
+.whiteboard-iframe {
+  margin-top: 12px;
+  width: 938px;
+  height: 700px;
+  transition: width 0.3s, height 0.3s;
+}
+
+.expand-btn-wb {
+  color: #fff;
+  background-color: #ad8dfe;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.expand-btn-wb:hover {
+  background-color: #6ef796;
+}

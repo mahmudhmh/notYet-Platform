@@ -1,0 +1,50 @@
+.navbar {
+  height: 500vh;
+  z-index: 5;
+}
+
+.vertical-tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 530px;
+  padding: 1px;
+  margin-right: 180px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border-left: 4px solid transparent;
+  transition: all 0.5s ease;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.tab:hover {
+  background-color: #ad8dfe;
+}
+
+.tab .active {
+  color: #fff;
+  border-color: #ad8dfe;
+  background-color: #ad8dfe;
+  padding: 20px;
+  border-radius: 50%;
+  width: 75px;
+}
+
+.tab a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab span {
+  padding: 10px;
+}

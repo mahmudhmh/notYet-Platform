@@ -1,0 +1,267 @@
+.container-admin-profile{
+  background-color: #001734;
+  margin-left: 370px;
+}
+.card-avatar {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 15px;
+  border: 1px solid #ad8dfe;
+  background-color: #ad8dfe;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-text {
+  color: #fff;
+  position: absolute;
+  top: 145px;
+  margin-left: 135px;
+  float: left;
+  font-size: 22px;
+  font-weight: 700;
+}
+.card-text2 {
+  position: absolute;
+  top: 175px;
+  margin-left: 135px;
+  float: left;
+  font-size: 22px;
+  font-weight: 500;
+}
+.account-ov {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 50px;
+  height: 250px;
+  width: 1400px;
+  margin-left: 30px;
+  align-self: center;
+  box-shadow: none;
+  background-color: #1f344f;
+  border-radius: 15px;
+}
+.account-ov h2 {
+  padding-top: 15px;
+  margin-left: 0px;
+  font-weight: 600;
+  text-align: center;
+}
+.account-ov-counter {
+  position: absolute;
+  left: 1030px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.account-ov-counter p {
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 20px;
+  text-align: center;
+}
+.account-ov-counter h2 {
+  position: absolute;
+  top: 40px;
+  left: 25px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+.accounts-data-container {
+  padding: 20px;
+  background-color: #1f344f;
+  margin: 3rem auto;
+  width: 1400px;
+  height: 700px;
+  position: absolute;
+  left: 400px;
+  border-radius: 15px;
+}
+.pagination {
+  position: absolute;
+  justify-content: center;
+  height: 71%;
+  margin-top: -150px;
+  margin-left: 600px;
+}
+
+.pagination li {
+  list-style: none;
+  display: inline-block;
+}
+
+.pagination li a {
+  display: block;
+  border: 1px solid #ad8dfe;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pagination li.active a {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+.pagination li a:hover {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+/* Modal Styles */
+.modall-data-accountOv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f344f;
+  padding: 20px;
+  border-radius: 15px;
+  width: 500px;
+  max-width: 120%;
+  color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.modall-data-accountOv h2 {
+  margin-top: 0;
+}
+
+.modall-data-accountOv form {
+  margin-top: 20px;
+}
+
+.modall-data-accountOv label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modall-data-accountOv input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.modall-data-accountOv button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modall-data-accountOv button:first-of-type {
+  background-color: #f44336;
+  margin-right: 10px;
+}
+.dark-mode {
+  color: #fff;
+  background-color: #1f344f;
+  border: none;
+}
+
+.dark-mode th {
+  background-color: #1f344f;
+  color: #fff;
+  border: none;
+}
+
+.dark-mode td {
+  background-color: #1f344f;
+  border: none;
+}
+.account-overview-table th {
+  background-color: #1f344f;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+.account-overview-table td {
+  background-color: #1f344f;
+  color: #fff;
+  text-align: start;
+  border: none;
+}
+.user-data {
+  color: #fff;
+  text-decoration: none;
+}
+.modall-user-data-ov {
+  position: fixed;
+  padding: 50px;
+  margin-left: 200px;
+  background-color: #1f344f;
+  border-radius: 15px;
+}
+.action-account-ov-btn .update-user-data-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ad8dfe;
+  color: #fff;
+  cursor: pointer;
+}
+.action-account-ov-btn .update-user-data-btn:hover {
+  background-color: #ad8dfe;
+}
+.cancel-user-data-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #001734;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.modall-delete-user-ov {
+  position: fixed;
+  padding: 50px;
+  margin-left: 200px;
+  background-color: #1f344f;
+  color: #fff;
+  border-radius: 15px;
+}
+.delete-modal-acc-btn .deletebtn-acc {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff0000;
+  color: #fff;
+  cursor: pointer;
+}
+.delete-modal-acc-btn .cancelbtn-acc {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #001734;
+  margin-left: 20px;
+  cursor: pointer;
+}

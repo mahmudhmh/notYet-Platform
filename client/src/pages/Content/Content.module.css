@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #001734;
+}
+
+.content1 {
+  width: auto;
+  margin-left: 90px;
+  padding-left: 100px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+.content1 .line1 {
+  font-size: 30px;
+  font-weight: lighter;
+  color: rgb(65, 160, 216);
+}
+.content1 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: none;
+}
+
+.text {
+  text-decoration: none;
+}
+.roadmap1 {
+  width: auto;
+  margin-left: 90px;
+  padding-left: 100px;
+  margin-right: 900px;
+  margin-bottom: 50px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.roadmap1 h3 {
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(160, 160, 160);
+  font-family: "Noto Sans JP", sans-serif;
+}
+.displaycards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  background-color: #ad8dfe;
+  margin-left: 190px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.card1 :hover {
+  color: black;
+  font-size: 20px;
+  content: "scscs";
+}
+.card1f h1 {
+  margin-left: 210px;
+  margin-top: -100px;
+  color: #fff;
+  text-decoration: none;
+}
+.card2f h1 {
+  margin-left: 160px;
+  margin-top: -70px;
+  color: #fff;
+  text-decoration: none;
+}
+.card3f h1 {
+  margin-left: 130px;
+  margin-top: -60px;
+  color: #fff;
+  text-decoration: none;
+}
+.card1 img {
+  margin-right: 120px;
+  margin-bottom: 150px;
+}
+
+.card2 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  background-color: #6ef796;
+  margin-left: 190px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.card2 img {
+  margin-right: 120px;
+  margin-left: 20px;
+  margin-bottom: 150px;
+}
+.card3 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  background-color: #eef611;
+  margin-left: 190px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.card3 img {
+  margin-right: 100px;
+  margin-bottom: 140px;
+}
+/* .displaycards h1 {
+  color: #fff;
+  margin-top: 300px;
+} */

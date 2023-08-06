@@ -1,0 +1,169 @@
+.problems-data-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f344f;
+}
+.problems-table-admin {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.prob-heading {
+  border-bottom: 1px solid #007bff;
+}
+.prob-body {
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+.prob-row {
+  background-color: #1f344f;
+  border-bottom: 1px solid #0080ff;
+}
+
+.prob-hd {
+  padding: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #1f344f;
+  color: #fff;
+  border-radius: 7px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.title-problem-view {
+  color: #fff;
+  text-decoration: none;
+}
+.body-row:hover {
+  background-color: #f8f9fa;
+}
+
+.body-data {
+  padding-top: 80px;
+  vertical-align: middle;
+  background-color: #1f344f;
+  border-color: #1f344f;
+  color: #fff;
+}
+
+.title-problem {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.title-problem:hover {
+  text-decoration: underline;
+}
+
+.faEdit,
+.faTrashAlt {
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s ease;
+}
+
+.faEdit:hover,
+.faTrashAlt:hover {
+  color: #007bff;
+}
+.pagination-problems {
+  position: absolute;
+  justify-content: center;
+  height: 71%;
+  padding-top: 700px;
+}
+
+.pagination-problems li {
+  list-style: none;
+  display: inline-block;
+}
+
+.pagination-problems li a {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #ad8dfe;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pagination-problems li.active a {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+.pagination-problems li a:hover {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+label {
+  color: #fff;
+}
+h2 {
+  color: #fff;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.form-actions button {
+  padding: 5px 20px;
+  background-color: #6faff9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.form-actions button:hover {
+  background-color: #45a049;
+}
+
+.form-actions button[type="button"] {
+  background-color: #ccc;
+  color: #000;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #bcbcbc;
+}
+.problem-name-view {
+  color: #fff;
+  font-size: large;
+  font-weight: 900;
+  margin-top: 0px;
+}

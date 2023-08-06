@@ -1,0 +1,17 @@
+.save-button-change-pw-admin {
+  position: absolute;
+  left: 230px;
+  top: 165px;
+  color: #fff;
+  background-color: #ad8dfe;
+  border-radius: 10px;
+  border-style: none;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}

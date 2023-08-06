@@ -1,0 +1,104 @@
+.ContactUs-form-container {
+  display: block;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 25rem;
+}
+.Contact-form label {
+  color: #000;
+  margin-left: 30px;
+}
+.Contact-form .form-contact-input {
+  width: 300px;
+  border: 1px solid #6faff9;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: -300px;
+  padding-left: 10px;
+}
+.Contact-form .form-contact-input3 {
+  width: 300px;
+  border: 1px solid #6faff9;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: -260px;
+  padding-left: 10px;
+}
+.Contact-form .form-contact-input2 {
+  width: 300px;
+  border: 1px solid #6faff9;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: -280px;
+}
+.button-submit-contactus .btn-submit-contact {
+  background-color: #6faff9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: -150px;
+}
+.button-submit-contactus .btn-submit-contact:hover {
+  background-color: #fff;
+  color: #6faff9;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: -150px;
+  border: 1px solid #6faff9;
+}
+.head {
+  color: #6faff9;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head-2 {
+  color: gray;
+}
+
+/* .new-expense__control label {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: black;
+      margin-left: 5rem;
+    } */
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  color: grey;
+  font-size: small;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px grey, 0 0 3px grey, 0 0 3px grey;
+}
+.new-expense__control textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  color: grey;
+  font-size: small;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px grey, 0 0 3px grey, 0 0 3px grey;
+}
+
+.button {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.button :hover {
+  background-color: #741188;
+  color: white;
+}

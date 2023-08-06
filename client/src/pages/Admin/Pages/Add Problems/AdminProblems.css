@@ -1,0 +1,154 @@
+.problems-table {
+  padding: 1rem;
+  /* background-color: rgb(31, 31, 31); */
+  background-color: #1f344f;
+  margin: 3rem auto;
+  width: 60rem;
+  width: 50%;
+  height: 660px;
+}
+
+.modal-problem-desc {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: #1f344f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 600px;
+  margin-left: 400px;
+}
+.modal-problem-desc .class-delete-btn-ff {
+  background-color: #ff0000;
+  height: 30px;
+  width: 80px;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 370px;
+  margin-right: 10px;
+}
+.modal-problem-desc .class-deletebtn-cancl {
+  background-color: #fff;
+  height: 30px;
+  width: 80px;
+  color: #001734;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-problem-desc h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-problem-desc p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.exit-button {
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* .exit-button:hover {
+  background-color: #555;
+} */
+
+.modal-problem-desc .form-group label {
+  color: #fff;
+}
+
+.modal-problem-desc .form-group input,
+.modal-problem-desc .form-group textarea {
+  background-color: #fff;
+  color: #1f344f;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.modal-problem-desc .form-group input:focus,
+.modal-problem-desc .form-group textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px #fff;
+}
+
+.modal-problem-desc .form-actions {
+  text-align: right;
+}
+
+.modal-problem-desc .form-actions button {
+  background-color: #555;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-problem-desc .form-actions button:first-child {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.modal-problem-desc .form-actions button:first-child:hover {
+  background-color: #ff0000;
+}
+
+.modal-problem-desc .form-actions button:last-child {
+  background-color: #ae8fde;
+  margin-left: 20px;
+  width: 200px;
+}
+
+.modal-problem-desc .form-actions button:last-child:hover {
+  background-color: #ae8fde;
+}
+.problem-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.problem-details-table td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.exit-button {
+  margin-top: 16px;
+  padding: 8px 16px;
+
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 30px;
+}
