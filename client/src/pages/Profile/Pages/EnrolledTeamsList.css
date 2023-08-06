@@ -1,0 +1,488 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.pagination {
+  position: absolute;
+  justify-content: center;
+  height: 71%;
+  padding-top: 640px;
+}
+
+.pagination li {
+  list-style: none;
+  display: inline-block;
+}
+.user-team {
+  background-color: #1f344f;
+  color: #fff;
+}
+.pagination li a {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #ad8dfe;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.pagination li.active a {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+.pagination li a:hover {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-actions {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.form-actions button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-actions button:hover {
+  background-color: #45a049;
+}
+
+.form-actions button[type="button"] {
+  background-color: #ccc;
+  color: #000;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #bcbcbc;
+}
+.teams-data-container {
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.teams-table-user {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.teams-table-user td {
+  padding: 20px;
+  text-align: start;
+  border: none;
+  margin-bottom: 2px;
+  background-color: #1f344f;
+  color: #fff;
+  border-radius: 2px;
+}
+.no-data-container img {
+  margin-top: 200px;
+  width: 200px;
+  height: 200px;
+}
+.no-data-container p {
+  color: #fff;
+}
+.teams-table-user th {
+  background-color: #1f344f;
+  color: #fff;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.pending-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pending-counter {
+  position: static;
+  top: 0px;
+  right: 0px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-form-container {
+  background-color: #1f344f;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.edit-form-container h3 {
+  margin-top: 0;
+}
+
+.edit-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-form-container input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.buttons-container button {
+  margin-left: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-edit-team-form-user label {
+  width: 420px;
+}
+.modal-edit-team-form-user form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.modal-edit-team-form-user {
+  background-color: #1f344f;
+  padding: 30px;
+  height: 230px;
+  width: 500px;
+  border-radius: 20px;
+}
+.modal-edit-team-form-user .edit-team-name-btn {
+  background-color: #ad8dfe;
+  display: block;
+  margin-top: 5px;
+  margin-left: 250px;
+}
+.modal-edit-team-form-user .edit-team-name-btn:hover {
+  background-color: #ad8dfe;
+}
+.modal-edit-team-form-user .cancel-team-name-btn {
+  background-color: #fff;
+  color: #001734;
+  display: block;
+  margin-top: -34px;
+  margin-left: 330px;
+}
+.modal-edit-team-form-user .cancel-team-name-btn:hover {
+  background-color: #fff;
+  color: #001734;
+}
+.modal-pending-members-team {
+  background-color: #1f344f;
+  color: #fff;
+  padding: 30px;
+  height: 200px;
+  width: 500px;
+  border-radius: 20px;
+}
+.modal-pending-members-team .modal-pending-members-team-accept {
+  background-color: #ad8dfe;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  width: 70px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 190px;
+  font-size: 16px;
+}
+.modal-pending-members-team .modal-pending-members-team-reject {
+  background-color: #ff0000;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  width: 70px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 250px;
+  font-size: 16px;
+}
+.modal-pending-members-team .modal-pending-members-team-close {
+  background-color: #fff;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #001734;
+  width: 70px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 190px;
+  font-size: 16px;
+}
+.modal-delete-team-user {
+  background-color: #1f344f;
+  color: #fff;
+  padding: 30px;
+  height: 200px;
+  width: 500px;
+  border-radius: 20px;
+}
+.modal-delete-team-user .delete-team-user-btn {
+  background-color: #ff0000;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  width: 70px;
+  display: block;
+  margin-top: 5px;
+  margin-left: 130px;
+  font-size: 16px;
+}
+.modal-delete-team-user .cancel-delete-team-user-btn {
+  background-color: #fff;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  color: #001734;
+  width: 70px;
+  display: block;
+  margin-top: -30px;
+  margin-left: 220px;
+  font-size: 16px;
+}
+.modal-add-member-user {
+  background-color: #1f344f;
+  padding: 30px;
+  height: 230px;
+  width: 500px;
+  border-radius: 20px;
+}
+.modal-add-member-user input {
+  margin-bottom: 10px;
+}
+.modal-add-member-user .add-member-add-btn {
+  background-color: #ad8dfe;
+  display: block;
+  margin-top: 5px;
+  margin-left: 290px;
+}
+.modal-add-member-user .add-member-add-btn:hover {
+  background-color: #ad8dfe;
+}
+
+.modal-add-member-user .cancel-member-add-btn {
+  background-color: #fff;
+  color: #001734;
+  display: block;
+  margin-top: -35px;
+  margin-left: 365px;
+}
+.modal-add-member-user .cancel-member-add-btn:hover {
+  background-color: #fff;
+  color: #001734;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  width: 300px;
+  max-width: 80%;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 9999;
+}
+
+.popup h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.popup ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup li {
+  margin-bottom: 5px;
+}
+
+.popup button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .popup {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .popup button {
+  background-color: #007bff;
+}
+
+body.dark-mode .popup button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #6faff9;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.edit-button:hover {
+  background-color: #5c9be0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-button {
+  background-color: #6faff9;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.add-button:hover {
+  background-color: #5c9be0;
+}
+
+.delete-button {
+  background-color: #6ef796;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.delete-button:hover {
+  background-color: #5ac982;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pending-members {
+  background-color: #ad8dfe;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.pending-members:hover {
+  background-color: #9c7de6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom Styles */

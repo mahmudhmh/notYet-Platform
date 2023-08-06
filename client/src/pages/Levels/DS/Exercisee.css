@@ -1,0 +1,110 @@
+.problems-data-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.problems-data-web th {
+  background-color: #1f344f;
+  color: #fff;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.problems-data-web td {
+  background-color: #1f344f;
+  color: #fff;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 20px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+.problems-data-web a {
+  color: #fff;
+  text-decoration: none;
+}
+.problems-data-web a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.page-navigation {
+  position: absolute;
+  justify-content: center;
+  height: 50%;
+  padding-top: 970px;
+}
+
+.page-navigation-item {
+  list-style: none;
+  display: inline-block;
+}
+
+.page-navigation-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; /* Adjust the width as per your preference */
+  height: 30px; /* Adjust the height as per your preference */
+  border: 1px solid #ad8dfe;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 50%; /* Makes the item a circle */
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.page-navigation-item.active a {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+.page-navigation-item a:hover {
+  background-color: #ad8dfe;
+  color: #fff;
+}
+
+.no-data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-data-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.no-data-placeholder {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.no-data-placeholder-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+.problems-table {
+  padding: 1rem;
+  /* background-color: rgb(31, 31, 31); */
+  background-color: #021123;
+  margin: 3rem auto;
+  width: 60rem;
+  width: 50%;
+  height: 660px;
+}
+.Text {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}

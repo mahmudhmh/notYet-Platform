@@ -1,0 +1,51 @@
+.Reject-team-container {
+  background-color: #1f344f;
+  width: 800px;
+  height: 400px;
+  border-radius: 15px;
+  margin-left: 600px;
+}
+.Reject-team-container h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+.Reject-team-container .Reject-Success-msg h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Accept-team-container {
+  background-color: #1f344f;
+  width: 800px;
+  height: 400px;
+  border-radius: 15px;
+  margin-left: 600px;
+}
+.Accept-team-container h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+.Accept-team-container .Accept-Success-msg h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 20px;
+  margin-top: 100px;
+  text-align: center;
+}

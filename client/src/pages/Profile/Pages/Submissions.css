@@ -1,0 +1,94 @@
+/* Add your CSS styles here */
+.container {
+  /* Example styles */
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.submissions-table {
+  /* Example styles */
+  margin-top: 50px;
+  margin-left: 500px;
+  width: 1200px;
+  background-color: #1f344f;
+  padding-top: 20px;
+  border-radius: 20px;
+  height: 400px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.table-user-submission {
+  margin-top: 0px;
+  background-color: #1f344f;
+  width: 1200px;
+}
+
+.table-user-submission th {
+  margin-top: 0px;
+  background-color: #1f344f;
+  color: #fff;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  width: 1200px;
+}
+.table-user-submission td {
+  padding-top: 20px;
+  background-color: #1f344f;
+  color: #fff;
+  border: none;
+  width: 1200px;
+  text-align: start;
+}
+.title-sub {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+th {
+  /* Example styles */
+  background-color: #f2f2f2;
+  color: #001734;
+}
+.sub-problems-user {
+  color: #001734;
+}
+
+.no-submissions-placeholder {
+  /* Example styles */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.no-submissions-placeholder img {
+  /* Example styles */
+  width: 100px;
+  height: 100px;
+}
+.no-submissions-placeholder p {
+  color: #fff;
+}
+.pagination {
+  /* Example styles */
+  margin-top: 20px;
+}
+
+.pagination ul {
+  /* Example styles */
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  /* Example styles */
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination li.active {
+  /* Example styles */
+  font-weight: bold;
+}

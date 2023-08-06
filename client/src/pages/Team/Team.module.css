@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #001734;
+}
+.TeamM1 {
+  width: auto;
+  margin-left: 90px;
+  padding: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeamM1 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  padding: 10px;
+}
+.TeamM2 {
+  width: auto;
+  margin-left: 90px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.TeamM2 h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  height: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.TeamM2 p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}

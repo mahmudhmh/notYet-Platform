@@ -1,0 +1,16 @@
+.save-button-pw-user {
+  position: absolute;
+  left: 230px;
+  top: 165px;
+  color: #fff;
+  background-color: #ad8dfe;
+  border-radius: 10px;
+  border-style: none;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}

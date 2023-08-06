@@ -1,0 +1,397 @@
+.container-user-profile{
+  background-color: #001734;
+  margin-left: 370px;
+  margin-bottom: 20px;
+}
+.card {
+  margin-top: 50px;
+  height: 150px;
+  width: 1220px;
+  margin-left: 30px;
+  text-align: center;
+  align-self: center;
+  box-shadow: none;
+}
+.card-body {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #001734;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-avatar {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #ad8dfe;
+  background-color: #ad8dfe;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imgg {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-text {
+  color: #fff;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 125px;
+  float: left;
+  font-size: 22px;
+  font-weight: 700;
+}
+.card-text2 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 125px;
+  float: left;
+  font-size: 22px;
+  font-weight: 500;
+}
+.card-text3 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 140px;
+  float: left;
+  font-size: 22px;
+  font-weight: 500;
+}
+.profile-redirection {
+  color: #fff;
+  text-decoration: none;
+}
+.solved-problems {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 70px;
+  height: 250px;
+  width: 700px;
+  margin-left: 30px;
+  align-self: center;
+  box-shadow: none;
+  background-color: #274160;
+  border-radius: 15px;
+}
+.solved-problems h2 {
+  padding-top: 15px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.solvedproblems-card {
+  margin-top: 5px;
+  margin-left: 200px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.solvedproblems-numsolved {
+  position: absolute;
+  left: 430px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.solvedproblems-numsolved p {
+  font-size: 20px;
+  font-weight: 800;
+  padding-top: 20px;
+  text-align: center;
+}
+.solvedproblems-numsolved h2 {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+.solvedproblems-level {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  font-size: medium;
+  font-weight: 300;
+  color: rgb(211, 211, 211);
+}
+.solvedproblems-number {
+  position: absolute;
+  top: 400px;
+  left: 950px;
+  font-size: medium;
+  font-weight: 300;
+  color: rgb(211, 211, 211);
+}
+.solvedproblems-progress-bar {
+  width: 360px;
+  position: absolute;
+  left: 675px;
+  top: 470px;
+  height: 25px;
+  background-color: #ad8dfe;
+  text-align: center;
+  align-self: center;
+  padding-bottom: 12px;
+  border-radius: 15px;
+}
+.About-user {
+  position: absolute;
+  top: 323px;
+  color: #fff;
+  text-decoration: none;
+  height: 250px;
+  width: 700px;
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-left: 745px;
+  align-self: center;
+  box-shadow: none;
+  background-color: #274160;
+  border-radius: 15px;
+}
+.About-user h2 {
+  position: absolute;
+  top: 1px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.About-card {
+  margin-top: 5px;
+  margin-left: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.About-bio {
+  font-size: 18px;
+  font-weight: 500;
+  overflow-y: hidden;
+  width: 650px;
+}
+.edit-bio {
+  position: absolute;
+  left: 550px;
+  top: 20px;
+  color: #fff;
+  background-color: #6ef796;
+  border-radius: 15px;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5px;
+}
+.Edit-user {
+  position: absolute;
+  top: 550px;
+  color: #fff;
+  text-decoration: none;
+  height: 250px;
+  width: 1420px;
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 25px;
+  align-self: center;
+  box-shadow: none;
+  background-color: #274160;
+  border-radius: 15px;
+}
+.Edit-user h2 {
+  position: absolute;
+  top: 1px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.edit-data {
+  position: absolute;
+  left: 1272px;
+  top: 190px;
+  color: #fff;
+  background-color: #ad8dfe;
+  border-radius: 15px;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 5px;
+}
+.save-button {
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  color: #fff;
+  background-color: #ad8dfe;
+  border-radius: 15px;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.edit-card {
+  margin-top: 5px;
+  margin-left: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.static-msg {
+  font-size: 20px;
+  font-weight: 400;
+}
+.edit-data-user {
+  position: absolute;
+  left: 30px;
+  top: 160px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.edit-data-user {
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.username-edit {
+  display: inline-block;
+  justify-content: space-between;
+}
+/* Modal overlay styles */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1f344f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-edit-user-data-user {
+  background-color: #1f344f;
+}
+/* Modal content styles */
+.back-modal-user {
+  background-color: #1f344f;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.popup-form-user-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1f344f;
+  color: #fff;
+}
+
+.popup-form-user-edit h3 {
+  margin-bottom: 5px;
+}
+
+.popup-form-user-edit input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.save-buttonn {
+  margin-top: -20px;
+  padding: 5px 10px;
+  background-color: #ad8dfe;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 750px;
+}
+
+.profile-redirection {
+  text-decoration: none;
+}
+
+.popup-form-user-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-form-user-edit h3 {
+  margin-bottom: 5px;
+}
+
+.popup-form-user-edit input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-button {
+  margin-top: 150px;
+  padding: 1px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.profile-redirection {
+  text-decoration: none;
+}

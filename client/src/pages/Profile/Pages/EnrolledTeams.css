@@ -1,0 +1,257 @@
+/* EnrolledTeams.css */
+
+.modal-join-team-user {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f344f;
+  padding: 20px;
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-join-team-user-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.team-msg-header {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-input-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.team-input-label-text {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.team-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-join-team-user .create-team-btn-user {
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ae8fde;
+  color: #fff;
+  border-radius: 7px;
+  border: #fff;
+}
+.modal-join-team-user .create-team-btn-user:hover {
+  background-color: #ae8fde;
+}
+.modal-join-team-user .cancel-team-btn-user {
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 7px;
+  border: #fff;
+}
+.modal-join-team-user .cancel-team-btn-user:hover {
+  background-color: #ff0000;
+}
+
+.username-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.delete-username-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-username-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6faff9;
+  color: #fff;
+  border-radius: 7px;
+  border: #fff;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for the buttons and title */
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 800px;
+  cursor: pointer;
+  background-color: #a8ef;
+  color: #fff;
+  border-radius: 7px;
+  border: #fff;
+}
+.button2 {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  cursor: pointer;
+  background-color: #a8ef;
+  color: #fff;
+  border-radius: 7px;
+  border: #fff;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Additional styling for the card component */
+
+.problems-table {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.close-modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #1f344f;
+  cursor: pointer;
+}
+
+.close-modal-btn:hover {
+  color: #fff;
+}
+.modal-create-team-user {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f344f;
+  padding: 20px;
+  width: 600px;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.modal-create-team-user .close-modal-btn-create {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: #1f344f;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.modal-create-team-user .delete-username-button {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.modal-create-team-user .delete-username-button:hover {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.modal-create-team-user .add-username-button {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  width: 540px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.modal-create-team-user .add-username-button:hover {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  width: 540px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.modal-create-team-user .create-team-btn {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.modal-create-team-user .create-team-btn:hover {
+  background-color: #ae8fde;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.modal-create-team-user .cancel-team-btn {
+  background-color: #ff0000;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.modal-create-team-user .cancel-team-btn:hover {
+  background-color: #ff0000;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
