@@ -32,7 +32,7 @@ The foundation of !YET is built using the MERN (MongoDB, Express.js, React.js, N
 
 To get started with !YET, follow these steps:
 
-1. Clone the repository from [https://www.github.com/notYet-Platform].
+1. Clone the repository from [Repo Link](https://github.com/mahmudhmh/notYet-Platform)
 2. Install the required dependencies using npm or yarn.
 3. Set up MongoDB and configure the database connection.
 4. Launch the server using Node.js and start the React.js front-end.
