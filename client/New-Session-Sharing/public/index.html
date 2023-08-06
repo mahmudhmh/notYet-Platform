@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Competitive Programming Session</title>
+  </head>
+  <body>
+    <h1>Competitive Programming Session</h1>
+    <p>Enter session ID to join:</p>
+    <input type="text" id="sessionId">
+    <button onclick="joinSession()">Join Session</button>
+    <br><br>
+    <textarea id="sessionData" rows="10" cols="50" readonly></textarea>
+    <br><br>
+    <p>Enter data to update:</p>
+    <input type="text" id="updateData">
+    <button onclick="updateSession()">Update Session</button>
+  </body>
+  <script>
+    let socket;
+    let sessionId;
+    const sessionData = document.getElementById('sessionData');
+    const updateData = document.getElementById('updateData');
+
+    function joinSession() {
+      sessionId = document.getElementById('sessionId').value;
+      socket = new WebSocket(`ws://${window.location.host}/session?id=${sessionId}`);
+      socket.addEventListener('message', (event) => {
+        sessionData.value = event.data;
+      });
+    }
+
+    function updateSession() {
+      if (!socket) {
+        alert('You must join a session first!');
+        return;
+      }
+      const data = updateData.value;
+      socket.send(data);
+    }
+  </script>
+</html>

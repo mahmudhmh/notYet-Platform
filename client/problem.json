@@ -1,0 +1,31 @@
+{
+            "inputs": [
+                "Hello"
+            ],
+            "outputs": [
+                "olleH"
+            ],
+            "hiddenInputs": [
+                "Python",
+                "OpenAI"
+            ],
+            "hiddenOutputs": [
+                "nohtyP",
+                "IAnepO"
+            ],
+            "constraints": [
+                "The input string will contain only printable ASCII characters.\nThe length of the input string will be between 1 and 10^5"
+            ],
+            "numberOfSolutions": 5,
+            "contests": [
+                "648d6a9a2159e6462030c58c",
+                "648d8f624c65ff52649c8d24"
+            ],
+            "users": [],
+            "_id": "648d672d2159e6462030c4bd",
+            "title": "Anan with a Ballon",
+            "description": "You are given a string. Your task is to reverse the string and return the reversed version.\n\nInput: A string\nOutput: The reversed version of the input string",
+            "category": "String",
+            "rank": "850",
+            "difficulty": "Easy"
+        }
