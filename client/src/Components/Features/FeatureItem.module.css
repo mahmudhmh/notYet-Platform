@@ -1,0 +1,65 @@
+.item {
+  margin: 1rem 0;
+  display: flex; /* Add display:flex to center the items */
+  justify-content: center; /* Align items horizontally to the center */
+  align-items: center; /* Align items vertically to the center */
+}
+
+.images {
+  width: 170px;
+  height: 160px;
+  border-radius: 8%;
+}
+
+.images img {
+  /* padding: 20px; */
+  width: 150px;
+  height: 150px;
+  margin-left: 75px;
+  /* margin: 20px; */
+  /* margin-left: 120px; */
+  /* Remove the margin and margin-left properties */
+}
+
+.contents div {
+  display: inline;
+}
+
+.contents {
+  /* display: flex; */ /* Remove display:flex */
+  /* justify-content: flex-start; */ /* Remove justify-content:flex-start */
+  flex-basis: auto;
+  text-align: left;
+  padding: 1rem;
+  /* align-items: center; */ /* Remove align-items:center */
+  display: inline-block; /* Add display:inline-block to align the cards */
+  text-align: center; /* Add text-align:center to center the contents */
+}
+
+.contents h3 {
+  display: inline;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 25px;
+}
+
+.titles h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.titles p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 20px;
+}

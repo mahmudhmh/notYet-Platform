@@ -1,0 +1,60 @@
+.item {
+  margin: 1rem 0;
+}
+
+.images {
+  width: 170px;
+  height: 160px;
+  border-radius: 8%;
+}
+
+.images img {
+  /* padding: 20px; */
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  margin-left: 170px;
+}
+
+.contents div {
+  display: inline;
+}
+.contents {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: auto;
+  text-align: left;
+  padding: 1rem;
+}
+.contents h3 {
+  display: inline;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.titles h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.titles p {
+  margin-top: -40px;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: center;
+  color: rgb(65, 160, 216);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.link a {
+  font-size: 20px;
+  color: rgb(65, 160, 216);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+}

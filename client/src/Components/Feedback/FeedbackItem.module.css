@@ -1,0 +1,52 @@
+.item {
+  margin: 1rem 0;
+}
+
+/* .images {
+  width: 170px;
+  height: 160px;
+  border-radius: 8%;
+}
+
+.images img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  margin-left: 120px;
+} */
+
+.contents div {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+.contents {
+  display: flex;
+  justify-content: start;
+  flex-basis: auto;
+  text-align: left;
+  padding: 1rem;
+}
+.contents h3 {
+  display: inline;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.titles h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+.titles p {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+}

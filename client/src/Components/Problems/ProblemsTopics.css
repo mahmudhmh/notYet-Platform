@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #001734;
+}
+.problem-num-container {
+  display: inline;
+  align-items: center;
+}
+.problem-topics {
+  padding-top: 8px;
+  display: block;
+  margin-left: 42%;
+  color: #fff;
+  background-color: #486588;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.problem-topics:hover {
+  background-color: #6faff9;
+}
+.problem-algorithm {
+  top: 855px;
+  position: absolute;
+  padding-top: 8px;
+  display: block;
+  margin-left: 51%;
+  color: #fff;
+  background-color: #486588;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.problem-algorithm:hover {
+  background-color: #6faff9;
+}
+/* .button-container {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  margin: 0 5px;
+} */

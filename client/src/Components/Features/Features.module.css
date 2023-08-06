@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.left {
+  display: inline-block;
+  height: 30rem;
+  width: 33%;
+  /* flex-direction: row; */
+  /* max-width: 400rem; */
+  /* padding-left: -500px; */
+  /* margin: 25px auto; */
+}
+.center {
+  display: flex;
+  width: 33%;
+  display: inline-block;
+  height: 30rem;
+}
+.right {
+  display: inline-block;
+
+  width: 33%;
+  height: 30rem;
+}

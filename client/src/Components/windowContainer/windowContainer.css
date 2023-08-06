@@ -1,0 +1,22 @@
+.window-container {
+  position: fixed;
+  width: 100%;
+  height: 102%;
+  background: #1f344d;
+  margin-left: 3px;
+  margin-top: -10px;
+  margin-bottom: 200px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+.color-picker-container {
+  text-align: center;
+}
+.window-board-container {
+  width: 300%;
+  height: 87%;
+  margin: auto;
+  margin-top: 1%;
+  background: #fff;
+  border: none;
+}
